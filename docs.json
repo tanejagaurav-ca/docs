@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Epitomos Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,7 +14,41 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "quickstart"
+          "getting-started/quickstart",
+          "getting-started/installation"
+        ]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": [
+          "concepts/overview",
+          "concepts/architecture"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/overview"
+        ]
+      },
+      {
+        "group": "Configuration",
+        "pages": [
+          "configuration/settings",
+          "configuration/environment-variables"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api-reference/introduction"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "troubleshooting",
+          "faq"
         ]
       }
     ],
@@ -36,7 +70,42 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index"
+          "index",
+          "getting-started/quickstart",
+          "getting-started/installation"
+        ]
+      },
+      {
+        "group": "Core Concepts",
+        "pages": [
+          "concepts/overview",
+          "concepts/architecture"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/overview"
+        ]
+      },
+      {
+        "group": "Configuration",
+        "pages": [
+          "configuration/settings",
+          "configuration/environment-variables"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api-reference/introduction"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "troubleshooting",
+          "faq"
         ]
       }
     ]
