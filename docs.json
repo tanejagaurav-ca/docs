@@ -14,8 +14,7 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "getting-started/quickstart",
-          "getting-started/core-concepts"
+          "getting-started/quickstart"
         ]
       },
       {
