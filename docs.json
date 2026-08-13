@@ -22,12 +22,34 @@
         "group": "Feature Reference",
         "pages": [
           {
-            "group": "The Inbox",
+            "group": "Dashboard",
             "pages": [
-              "feature-reference/inbox/using-the-team-inbox",
-              "feature-reference/inbox/human-takeover",
-              "feature-reference/inbox/tags-mute-archive-status",
-              "feature-reference/inbox/24-hour-messaging-window"
+              "feature-reference/dashboard/overview"
+            ]
+          },
+          {
+            "group": "Chats",
+            "pages": [
+              "feature-reference/chats/using-chats",
+              "feature-reference/chats/human-takeover",
+              "feature-reference/chats/tags-mute-archive-status",
+              "feature-reference/chats/message-templates",
+              "feature-reference/chats/24-hour-messaging-window"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "feature-reference/workflows/builder-overview",
+              "feature-reference/workflows/trigger-types",
+              "feature-reference/workflows/building-your-first-automation",
+              "feature-reference/workflows/testing-and-debugging",
+              "feature-reference/workflows/templates-gallery",
+              "feature-reference/workflows/using-the-library",
+              "feature-reference/workflows/workflow-graph-reference",
+              "feature-reference/workflows/whatsapp-flows-overview",
+              "feature-reference/workflows/building-and-publishing-a-flow",
+              "feature-reference/workflows/appointment-scheduling"
             ]
           },
           {
@@ -39,52 +61,24 @@
             ]
           },
           {
-            "group": "Workflows (Automation)",
+            "group": "Integrations",
             "pages": [
-              "feature-reference/workflows/builder-overview",
-              "feature-reference/workflows/trigger-types",
-              "feature-reference/workflows/building-your-first-automation",
-              "feature-reference/workflows/testing-and-debugging",
-              "feature-reference/workflows/templates-gallery",
-              "feature-reference/workflows/workflow-graph-reference"
+              "feature-reference/integrations/connecting-a-crm",
+              "feature-reference/integrations/supported-providers-and-sync",
+              "feature-reference/integrations/field-mapping",
+              "feature-reference/integrations/supported-calendar-providers"
             ]
           },
           {
-            "group": "Appointment Scheduling",
+            "group": "Reports",
             "pages": [
-              "feature-reference/appointment-scheduling/setup-whatsapp-booking",
-              "feature-reference/appointment-scheduling/supported-calendar-providers",
-              "feature-reference/appointment-scheduling/booking-cancellation-rescheduling"
+              "feature-reference/reports/overview"
             ]
           },
           {
-            "group": "WhatsApp Flows",
+            "group": "Alerts",
             "pages": [
-              "feature-reference/whatsapp-flows/what-are-whatsapp-flows",
-              "feature-reference/whatsapp-flows/building-and-publishing-a-flow"
-            ]
-          },
-          {
-            "group": "Message Templates & Library",
-            "pages": [
-              "feature-reference/message-templates-library/managing-message-templates",
-              "feature-reference/message-templates-library/using-the-library"
-            ]
-          },
-          {
-            "group": "CRM Integrations",
-            "pages": [
-              "feature-reference/crm-integrations/connecting-a-crm",
-              "feature-reference/crm-integrations/supported-providers-and-sync",
-              "feature-reference/crm-integrations/field-mapping"
-            ]
-          },
-          {
-            "group": "Team & Account Management",
-            "pages": [
-              "feature-reference/team-account-management/inviting-team-members-and-roles",
-              "feature-reference/team-account-management/managing-your-organization",
-              "feature-reference/team-account-management/account-settings"
+              "feature-reference/alerts/overview"
             ]
           }
         ]
