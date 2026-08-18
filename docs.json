@@ -11,9 +11,14 @@
   "navigation": {
     "groups": [
       {
+        "group": "Introduction",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "group": "Get started",
         "pages": [
-          "index",
           "getting-started/signup-and-onboarding",
           "getting-started/guided-tour"
         ]
