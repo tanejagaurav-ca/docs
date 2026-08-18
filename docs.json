@@ -11,10 +11,23 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "Get started",
         "pages": [
           "index",
-          "getting-started/quickstart"
+          "getting-started/signup-and-onboarding",
+          "getting-started/guided-tour"
+        ]
+      },
+      {
+        "group": "Workflow & Integrations",
+        "pages": [
+          "workflow-integrations/overview"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/overview"
         ]
       },
       {
