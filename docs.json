@@ -19,7 +19,8 @@
       {
         "group": "Get started",
         "pages": [
-          "getting-started/signup-and-onboarding"
+          "getting-started/signup-and-onboarding",
+          "getting-started/meta-embedded-signup"
         ]
       },
       {
