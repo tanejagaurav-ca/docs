@@ -70,6 +70,12 @@
             ]
           },
           {
+            "group": "Templates",
+            "pages": [
+              "feature-reference/templates/overview"
+            ]
+          },
+          {
             "group": "Contacts",
             "pages": [
               "feature-reference/contacts/managing-contacts",
