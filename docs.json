@@ -116,16 +116,7 @@
     "links": []
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+    "options": []
   },
   "footer": {
     "socials": {}
@@ -138,5 +129,8 @@
   },
   "icons": {
     "library": "lucide"
+  },
+  "fonts": {
+    "family": "Hanken Grotesk"
   }
 }
