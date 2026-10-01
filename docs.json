@@ -24,6 +24,12 @@
         ]
       },
       {
+        "group": "Workflow & Integrations",
+        "pages": [
+          "workflow-integrations/overview"
+        ]
+      },
+      {
         "group": "Guides",
         "pages": [
           "guides/overview"
@@ -49,6 +55,21 @@
             ]
           },
           {
+            "group": "Workflows",
+            "pages": [
+              "feature-reference/workflows/builder-overview",
+              "feature-reference/workflows/trigger-types",
+              "feature-reference/workflows/building-your-first-automation",
+              "feature-reference/workflows/testing-and-debugging",
+              "feature-reference/workflows/templates-gallery",
+              "feature-reference/workflows/using-the-library",
+              "feature-reference/workflows/workflow-graph-reference",
+              "feature-reference/workflows/whatsapp-flows-overview",
+              "feature-reference/workflows/building-and-publishing-a-flow",
+              "feature-reference/workflows/appointment-scheduling"
+            ]
+          },
+          {
             "group": "Templates",
             "pages": [
               "feature-reference/templates/overview"
@@ -60,6 +81,15 @@
               "feature-reference/contacts/managing-contacts",
               "feature-reference/contacts/importing-contacts",
               "feature-reference/contacts/contact-tags"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "feature-reference/integrations/connecting-a-crm",
+              "feature-reference/integrations/supported-providers-and-sync",
+              "feature-reference/integrations/field-mapping",
+              "feature-reference/integrations/supported-calendar-providers"
             ]
           },
           {
