@@ -5,12 +5,16 @@ description: "The graph editor UI and node types"
 
 ## What it does
 
-{/* TODO: the graph editor UI, node types */}
+Workflows are graph-based automations: a trigger starts a run, which walks through a series of steps (nodes), branching based on conditions or customer replies. The builder is a visual graph editor where you connect steps together.
+
+Common step types include sending a message, asking a question and waiting for a reply, branching on a condition, setting a variable, calling an external system (a connected integration), filing a document, and scheduling a follow-up.
+
+A run is **stateful** — it can pause waiting for a customer's reply (or a timer) and pick back up exactly where it left off, even days later.
 
 ## When to use it
 
-{/* TODO */}
+Build a workflow whenever you want WhatsApp conversations to happen automatically — answering FAQs, qualifying a lead, booking an appointment, routing a request to the right place, or following up after some condition is met.
 
 ## How to configure it
 
-{/* TODO */}
+Start from a blank workflow, or adopt a ready-made [recipe](/feature-reference/workflows/templates-gallery) and customize it. Each workflow has one trigger (see [Trigger types](/feature-reference/workflows/trigger-types)) and a graph of steps you edit visually. Only one workflow can be actively handling inbound messages at a time — enabling a new one moves any other inbound-triggered workflow to Draft.

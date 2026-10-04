@@ -1,23 +1,32 @@
 ---
 title: "Building your first automation"
-description: "Step-by-step tutorial: an FAQ auto-reply"
+description: "A step-by-step tutorial: an FAQ auto-reply"
 ---
 
 <Note>
-  TODO: Replace with a real step-by-step tutorial building an FAQ auto-reply workflow.
+  Every account starts with a "Welcome auto-reply" workflow, created automatically during onboarding — see [Signup and onboarding](/getting-started/signup-and-onboarding). This tutorial walks through building one yourself.
 </Note>
 
 <Steps>
   <Step title="Create a new workflow">
-    {/* TODO */}
+    From the Workflows gallery, start blank or adopt a recipe close to what you want.
   </Step>
-  <Step title="Add a trigger">
-    {/* TODO: e.g. message received matching a keyword */}
+  <Step title="Set the trigger">
+    Choose **Message received** so the workflow answers inbound WhatsApp messages. Optionally add a filter (for example, only match certain keywords).
   </Step>
-  <Step title="Add a reply action">
-    {/* TODO */}
+  <Step title="Add a reply">
+    Add a "send message" step with your answer. For a simple FAQ reply, this can be the whole workflow.
   </Step>
-  <Step title="Test and publish">
-    {/* TODO: link to /feature-reference/workflows/testing-and-debugging */}
+  <Step title="Test it">
+    Use the Test button to run the workflow manually (a dry run — no real message is sent), and check the run history to see each step's outcome.
+  </Step>
+  <Step title="Enable it">
+    Switch the workflow on. Remember: only one message-triggered workflow can be active at a time, so enabling this one drafts any other.
   </Step>
 </Steps>
+
+## Next steps
+
+<Card title="Testing and debugging a workflow" icon="bug" href="/feature-reference/workflows/testing-and-debugging">
+  Dig into dry runs and run history once you're past a simple reply.
+</Card>

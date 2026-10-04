@@ -1,16 +1,18 @@
 ---
 title: "Testing and debugging a workflow"
-description: "Dry-run/test mode, run history, step-by-step diagnostics"
+description: "Dry runs, run history, and per-step diagnostics"
 ---
 
 ## What it does
 
-{/* TODO: dry-run/test mode, run history, step-by-step diagnostics */}
+Every workflow keeps a history of its runs, with one record per execution and one audit entry per step the run passed through — so you can see exactly which path a conversation took and why.
+
+A **Test** run (dry run) walks the workflow the same way a real conversation would, but doesn't send real WhatsApp messages — useful for checking logic without bothering a customer. Test/dry runs are also excluded from your reporting numbers.
 
 ## When to use it
 
-{/* TODO */}
+Test a workflow before enabling it, and whenever you change one. Check run history after the fact to see why a particular conversation didn't behave as expected — for example, which branch a condition took, or whether a step failed.
 
 ## How to configure it
 
-{/* TODO */}
+Use the **Test** button on a workflow to trigger a manual dry run. Open any run from the run history to see its step-by-step path, including the data each step received and produced.

@@ -1,16 +1,30 @@
 ---
-title: "Managing Meta-approved message templates"
-description: "Creation, approval status, and sending outside the 24-hour window"
+title: "Message templates"
+description: "Meta-approved messages you can send any time, including outside the 24-hour window"
 ---
 
 ## What it does
 
-{/* TODO */}
+Message templates are pre-written, Meta-approved messages. Unlike ordinary chat replies, a template can be sent to a customer even after their [24-hour reply window](/feature-reference/chats/24-hour-messaging-window) has closed — which is the main reason they exist.
+
+## Template lifecycle
+
+```
+Draft ──submit──▶ Pending ──Meta decides──▶ Approved
+  ▲                  │                         │
+  │                  └──────────────▶ Rejected │
+  └─────────── edit ◀───────────────────────────┘
+```
+
+- **Draft** — authored in Epitomos, not yet sent to Meta. Freely editable.
+- **Pending** — submitted to Meta for review. Not editable while pending.
+- **Approved** — sendable from Chats, and usable as a workflow's fallback message outside the 24-hour window.
+- **Rejected** — editable; Meta's rejection reason is shown so you can fix and resubmit.
 
 ## When to use it
 
-{/* TODO: sending outside the 24-hour window — see /feature-reference/chats/24-hour-messaging-window */}
+Use a template whenever you need to reach a customer outside their 24-hour window — Chats automatically offers your approved templates in that situation instead of a free-form message box. Templates are also used as a workflow's fallback message when a step tries to message someone outside their window.
 
 ## How to configure it
 
-{/* TODO: creation, submitting for Meta approval, checking approval status */}
+Create and manage templates from the **Templates** page (see [Templates overview](/feature-reference/templates/overview)). Authoring and submitting templates is restricted to owners and admins.
