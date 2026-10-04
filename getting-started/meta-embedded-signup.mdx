@@ -4,26 +4,32 @@ description: "Register or migrate your WhatsApp Business number and authorize Ep
 ---
 
 <Note>
-  This step is optional if you just want to try out Epitomos first, but it's required before you can send or receive real WhatsApp business communication through the platform.
+  You can try Epitomos on the shared sandbox number first (see [Signup and onboarding](/getting-started/signup-and-onboarding)), but connecting your own WhatsApp number is required before Epitomos can run real, automated conversations with your customers.
 </Note>
 
 ## What it does
 
-After signup and onboarding, you'll go through a guided **Meta WhatsApp Embedded Signup** flow to either:
+Epitomos manages your WhatsApp Business Account through Meta's **Embedded Signup** flow — a guided popup that connects your number without leaving Epitomos. Completing it authorizes Epitomos to send and receive messages, and manage message templates, on your business's behalf.
 
-* **Register** a new business mobile phone number with WhatsApp, or
-* **Migrate** a business phone number you've already onboarded to WhatsApp
+You'll find the **Onboard** button for this in the banner at the top of most pages until you've connected a number, or at **Settings → Connect WhatsApp**.
 
-directly through Epitomos — you don't need to go through Meta Business Manager separately.
+## Which situation you're in
 
-Completing this flow grants Epitomos authorization to manage your business's WhatsApp communication on your behalf.
+| Your number is… | What to do |
+| --- | --- |
+| Brand new, never used with WhatsApp | Choose "A new or separate number" in the dialog. This is the default. |
+| Already connected to another provider's Cloud API | Turn off two-step verification for that number in WhatsApp Manager first, then connect. Meta requires this and it can only be done in WhatsApp Manager — there's no API for it. |
+| Currently used in the regular, personal WhatsApp app | Not directly supported. Move it to the WhatsApp Business app first, or free up the number by deleting its WhatsApp account (around 3 minutes), then connect it as a new number. |
+| Currently used in the **WhatsApp Business app** (on someone's phone) | Not currently offered. Meta calls this "Coexistence" — keeping the number live in the WhatsApp Business app and in Epitomos at once — and it isn't available in Epitomos today. |
 
-## When to use it
+If you'd rather not go through the popup, there's also a manual connection form that accepts your WABA ID and phone number ID directly, for numbers already registered elsewhere.
 
-The first step of the [guided tour](/getting-started/signup-and-onboarding#guided-tour) that follows onboarding highlights an **onboard** button in a banner at the top of the dashboard — that button launches this same flow. You can also come back to it later if you skip it during the tour.
+## Things that can trip up the connection
 
-{/* TODO: where does a customer trigger this later if they skipped it — Settings, the dashboard banner persists, etc.? */}
+- **Two-step verification must be off** on the number before you connect it, or the connection will fail. Turn it off in WhatsApp Manager and try again.
+- Embedded Signup both verifies your number **and** registers it for the Cloud API automatically — you don't need a separate registration step.
+- Numbers added through the manual form are assumed to already be registered elsewhere, so Epitomos doesn't attempt to register them again.
 
 ## How to configure it
 
-{/* TODO: step-by-step walkthrough of the embedded signup flow, including the register vs. migrate paths, what Meta permissions/screens are shown, and what happens on completion or failure */}
+{/* TODO: step-by-step screen-by-screen walkthrough of the Embedded Signup popup once the UI is finalized/stable enough to screenshot */}

@@ -1,22 +1,18 @@
 ---
 title: "Supported calendar providers"
-description: "Comparison of what each calendar provider supports"
+description: "Connect a calendar so workflows can check availability and book appointments"
 ---
 
 ## What it does
 
-{/* TODO */}
+Calendar providers power [appointment scheduling](/feature-reference/workflows/appointment-scheduling) workflows — checking real availability and creating events when a customer books over WhatsApp.
 
 ## When to use it
 
-{/* TODO */}
+Connect a calendar provider before adopting the appointment scheduling recipe; the recipe needs one connected to build its booking logic against.
 
 ## How to configure it
 
-| Provider | {/* TODO: capability columns */} |
-| --- | --- |
-| Google Calendar | {/* TODO */} |
-| Calendly | {/* TODO */} |
-| Zoom | {/* TODO */} |
-| Microsoft Outlook | {/* TODO */} |
-| Microsoft Bookings | {/* TODO */} |
+Supported providers: **Google Calendar, Google Appointment Schedules, Microsoft Outlook, Calendly,** and **Zoom Meetings**. Connect one from the Integrations page — Calendly uses OAuth; the others connect the same way as their CRM/contacts counterparts where applicable.
+
+{/* TODO: confirm whether this list is still accurate at publish time — it's sourced directly from the scheduling provider registry in code, so check src/lib/scheduling/registry.ts for the current list before shipping */}

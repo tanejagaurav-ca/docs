@@ -5,14 +5,27 @@ description: "What's supported per CRM provider — capability varies significan
 
 ## What it does
 
-{/* TODO */}
+Not every CRM supports every direction of sync. Contact **import** works for every supported provider; the other directions vary.
 
 ## When to use it
 
-{/* TODO */}
+Check this table before relying on a specific sync behavior — for example, if you need WhatsApp activity logged back into your CRM automatically, confirm your provider supports it.
 
 ## How to configure it
 
-| Provider | Contacts in | Contacts out | Activity logging |
-| --- | --- | --- | --- |
-| {/* TODO */} | {/* TODO */} | {/* TODO */} | {/* TODO */} |
+| Provider | Contacts in | Notes |
+| --- | --- | --- |
+| HubSpot | Yes | OAuth only (legacy private-app tokens still work if already connected) |
+| Salesforce (Sales Cloud) | Yes | OAuth with PKCE |
+| Salesforce (Service Cloud) | Yes | Same org as Sales Cloud, separate connection |
+| Zoho CRM | Yes | |
+| Google Contacts | Yes | Separate OAuth client from sign-in |
+| Microsoft Outlook | Yes | |
+| Clio (legal) | Yes | Imports clients only, never opposing parties; region-specific (US/Canada/EMEA/Australia) |
+| Mailchimp | Yes | API key only |
+| Zendesk | Yes | API key only |
+| Freshdesk | Yes | API key only |
+| Constant Contact | Yes | Contacts only |
+| Intercom | Yes | |
+
+Write-back directions (pushing contacts out, logging activity, triggering workflows from CRM events) are narrower and vary by provider — each connection's settings show exactly which directions are available and toggleable for that provider.

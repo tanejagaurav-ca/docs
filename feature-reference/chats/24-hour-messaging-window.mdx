@@ -1,16 +1,16 @@
 ---
 title: "Understanding the 24-hour messaging window"
-description: "The Meta rule that determines when a message needs a template, explained in plain terms"
+description: "The WhatsApp rule that determines when a message needs a template"
 ---
 
 ## What it does
 
-{/* TODO: end-user translation of Meta's 24-hour customer service window rule */}
+WhatsApp opens a 24-hour **customer service window** whenever a customer messages your business. Inside that window, you (and your workflows) can send free-form replies. Once 24 hours pass without a new message from the customer, free-form messages are no longer allowed — WhatsApp requires an approved [message template](/feature-reference/chats/message-templates) instead.
 
 ## When to use it
 
-{/* TODO: when you'll hit this — e.g. replying to a customer more than 24h after their last message */}
+You don't have to track this manually: when a conversation's window has closed, Chats replaces the message composer with your list of approved templates instead of letting you type free text. Workflows behave the same way — a step that tries to message someone outside their window automatically falls back to an approved template (the step's own, or the workflow's default) if one is set, or the step simply fails if none is available.
 
 ## How to configure it
 
-{/* TODO: is there any configuration, or is this purely informational? Link to /feature-reference/chats/message-templates for the workaround */}
+There's nothing to configure for the window itself — it's a WhatsApp platform rule, not an Epitomos setting. What you can control is which [template](/feature-reference/chats/message-templates) gets offered as the fallback for a given workflow step.

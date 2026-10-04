@@ -1,23 +1,23 @@
 ---
 title: "Trigger types"
-description: "Message received, webhook, cron schedule, manual"
+description: "What starts a workflow run"
 ---
 
 ## What it does
 
-Workflows can start from one of several trigger types:
+Every workflow has one trigger that determines how its runs start:
 
-| Trigger | Description |
+| Trigger | Starts when… |
 | --- | --- |
-| Message received | {/* TODO */} |
-| Webhook | {/* TODO */} |
-| Cron schedule | {/* TODO */} |
-| Manual | {/* TODO */} |
+| **Message received** | A customer sends your business a WhatsApp message (and they don't already have another workflow actively running). |
+| **Webhook** | An external system calls a signed webhook URL Epitomos generates for that workflow. |
+| **Scheduled (cron)** | On a recurring schedule you set. |
+| **Manual** | You click "Test" to run it yourself, without a real customer involved. |
 
 ## When to use it
 
-{/* TODO: guidance on picking a trigger type */}
+Use **Message received** for the vast majority of customer-facing automations — FAQ bots, booking flows, qualification. Use **Webhook** to kick off a workflow from another system (for example, a follow-up after a CRM event). Use **Scheduled** for recurring, time-based automations that don't need a specific contact to start (like a daily digest). Use **Manual**/Test while you're building and want to try a workflow without it touching real customers.
 
 ## How to configure it
 
-{/* TODO */}
+Pick the trigger type when creating a workflow. A **Message received** trigger can optionally be narrowed with a filter condition (for example, only start if the message matches certain text), and only one such workflow can be enabled at a time per account — Epitomos tries candidates in order and the first match wins.

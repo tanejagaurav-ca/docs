@@ -16,42 +16,44 @@ There are two ways to sign up and create an Epitomos account:
   </Tab>
 </Tabs>
 
+The first person to sign up for a business creates its **organization** (tenant) and becomes its **owner**. Everyone else joins by invitation — see [Inviting team members and roles](/feature-reference/team-account-management/inviting-team-members-and-roles).
+
 ## Onboarding wizard
 
-Once you've signed up, logging in for the first time presents you with an onboarding wizard. Completing it is **mandatory** — you can't use Epitomos until it's done.
+The first time you log in, you're presented with an onboarding wizard as a blocking step over the dashboard. Completing it is required before you can use the rest of Epitomos.
 
-The wizard asks a few basic questions about your business:
+The wizard collects:
 
 | Field | Notes |
 | --- | --- |
 | Business name | |
-| Industry | The industry your business belongs to |
-| Phone number | The number you wish to onboard to WhatsApp as your business number, or one you've already onboarded to WhatsApp |
-| Company website | |
-| Address | |
-| Days and hours of operation | |
-| Timezone | |
+| Industry | One of: Legal, Professional services, Health & wellness, Restaurants & food, Tours & experiences, Real estate, Home & local services, Education |
+| Business phone | A general contact number — not the WhatsApp number itself |
+| Website | |
+| Address | Autocompleted |
+| Business hours | Opening/closing time, and which days of the week you're open |
+| Time zone | |
 
 <Note>
-  All of these can be changed later — see your account's Settings section.
+  All of these are editable later — your business name, industry, and contact details live in Settings → Profile; hours and time zone there too.
 </Note>
 
-## Demo workflow
+Connecting your actual WhatsApp Business number is a **separate step** from this wizard — see [Meta embedded signup](/getting-started/meta-embedded-signup).
 
-At the very end of the onboarding wizard — right before the guided tour — Epitomos automatically creates a demo workflow customized from the company information you provided in the earlier steps. This demo workflow is deployed and live immediately, running on Epitomos's sandbox WhatsApp number.
+## What happens when you finish
 
-You're shown a QR code and a **Chat on WhatsApp** button so you can try the demo workflow right away, without needing your own WhatsApp Business number connected yet.
+Saving the wizard triggers a few things automatically:
 
-## Guided tour
+1. **A "Welcome auto-reply" workflow is created and switched on** for your account, so inbound WhatsApp messages don't go unanswered from day one. Epitomos also fires a one-off test run (no real message is sent) so your workflow run history isn't empty on day one.
+2. **A preview opens** showing a sample animated WhatsApp conversation with your business name, so you can see roughly what a conversation looks like.
+3. **A guided tour starts**, spotlighting the main parts of the app in order: the "Onboard your WhatsApp number" banner, Chats, Contacts, Templates, Workflows, Integrations, Alerts, Reports, Settings, the Get started checklist, and Support & feedback. You can dismiss it at any point and it won't start again automatically.
 
-Once onboarding is complete, a brief in-app guided tour walks you through the features Epitomos offers. The tour can be skipped.
+### Trying Epitomos before connecting your own number
 
-The tour's first step highlights an **onboard** button in a banner at the top of the dashboard. This launches the same [Meta embedded signup](/getting-started/meta-embedded-signup) process described in the next section.
-
-Completing the tour (or skipping it) finishes signup and onboarding — you're ready to start using Epitomos.
+Until you connect a WhatsApp number, you can still try sending and receiving messages using Epitomos's **shared sandbox number**. Settings and the onboarding wizard both offer a join link and QR code — texting `join <your code>` to the sandbox number makes your account reachable there, so you can test your welcome workflow (and anything else you build) before onboarding a real number.
 
 ## Next steps
 
 <Card title="Meta embedded signup" icon="whatsapp" href="/getting-started/meta-embedded-signup">
-  Register or migrate your WhatsApp Business number so Epitomos can manage it on your behalf. Optional if you just want to try Epitomos first.
+  Register or migrate your WhatsApp Business number so Epitomos can manage it on your behalf.
 </Card>

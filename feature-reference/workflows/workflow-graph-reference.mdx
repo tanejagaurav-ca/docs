@@ -4,17 +4,19 @@ description: "Node types, conditions, context/variables"
 ---
 
 <Note>
-  TODO: Adapt this page from `docs/workflows-json.md` in the product repo.
+  This page is for authors building complex workflows directly. For a guided start, see [Building your first automation](/feature-reference/workflows/building-your-first-automation) or the [Templates gallery](/feature-reference/workflows/templates-gallery).
 </Note>
 
 ## Node types
 
-{/* TODO */}
+A workflow graph is made of nodes connected by edges. Common node types include: send a message, wait for a reply, a conditional branch, set a variable, call a connected integration (`rest_api`), schedule a follow-up workflow, file a document, and calendar actions (book/cancel/reschedule an appointment).
 
 ## Conditions
 
-{/* TODO */}
+Branches evaluate a condition group against the current context — for example, matching the text of a customer's reply, or a value a previous step set.
 
 ## Context / variables
 
-{/* TODO */}
+Each run carries an accumulating **context**: what triggered it, the contact's details, the customer's replies, and anything a step explicitly sets. Later steps can reference earlier values (for example, to personalize a message with something the customer said two steps ago).
+
+{/* TODO: expand with concrete syntax examples once the in-app editor's templating syntax is documented for an external audience */}

@@ -1,16 +1,20 @@
 ---
 title: "Connecting a CRM"
-description: "OAuth/API-key setup per provider"
+description: "OAuth or API-key setup, per provider"
 ---
 
 ## What it does
 
-{/* TODO */}
+Connect a CRM so Epitomos can bring its contacts in, and (depending on the provider) push contacts out, log WhatsApp activity against CRM records, and let workflows read and write CRM data.
+
+Supported CRM and support-desk providers: **HubSpot, Salesforce (Sales Cloud and Service Cloud), Zoho CRM, Google Contacts, Microsoft Outlook, Clio (legal), Mailchimp, Zendesk, Freshdesk, Constant Contact, and Intercom.**
 
 ## When to use it
 
-{/* TODO */}
+Connect a CRM if you already manage customers there and want WhatsApp conversations and contacts to stay in sync with it, or if you want a workflow to look up or update CRM records mid-conversation (for example, checking a support ticket's status, or finding a customer's deal stage).
 
 ## How to configure it
 
-{/* TODO: OAuth vs. API-key setup, per provider */}
+Most providers connect with **OAuth** — click Connect, authorize in the provider's own login screen, and you're done. A few (Mailchimp, Zendesk, Freshdesk) are **API-key only** — paste the key (and, for Zendesk/Freshdesk, your subdomain) instead.
+
+Connecting and managing a CRM is restricted to owners and admins; other team members can see whether it's connected but can't change it.
